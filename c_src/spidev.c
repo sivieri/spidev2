@@ -3,6 +3,7 @@
 #include <errno.h>
 #include <unistd.h>
 #include <stdint.h>
+#include <stdio.h>
 
 typedef struct {
   ErlNifEnv *env;
