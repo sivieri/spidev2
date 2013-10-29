@@ -2,7 +2,7 @@
 -export([init/0, setup/2, xfer/2, close/1]).
 -on_load(init/0).
 
--define(APPNAME, spidev).
+-define(APPNAME, spidev2).
 
 init() ->
     case code:priv_dir(?APPNAME) of
